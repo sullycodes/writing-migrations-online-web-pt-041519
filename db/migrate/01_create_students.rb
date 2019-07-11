@@ -10,4 +10,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
   # SQL
  
   # ActiveRecord::Base.connection.execute(sql)
-  create_table :students
+  def change
+    create_table :students do |s|
+    end
+  end
