@@ -7,7 +7,7 @@ class CreateStudents < ActiveRecord::Migration[5.1]
   age INTEGER,
   hometown TEXT
   )
-SQL
+  SQL
  
-ActiveRecord::Base.connection.execute(sql)
+  ActiveRecord::Base.connection.execute(sql)
 end
