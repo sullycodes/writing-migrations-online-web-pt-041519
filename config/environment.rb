@@ -19,3 +19,4 @@ def drop_db
   end
 end
 
+ConnectionAdapter.new
