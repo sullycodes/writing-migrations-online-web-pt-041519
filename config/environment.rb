@@ -19,4 +19,4 @@ def drop_db
   end
 end
 
-ConnectionAdapter.new
+ConnectionAdapter.new(../db/school-test.db)
